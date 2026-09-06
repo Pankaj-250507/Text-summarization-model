@@ -4,6 +4,7 @@ import torch.nn as nn
 from config import model_config
 from torch.nn import functional as F
 import math
+import torch.nn.functional as F
 
 # HEREIN THIS FILE THE WHOLE ARCHITECTURE OF TRANSFORMERS AND ATTENTION IS DEFINED MANUALLY FOR BETTER UNDERDSTANDING OF THE FLOW OF 
 # MATHS AND MATRICES

@@ -1,5 +1,7 @@
 import unittest
-from .data_prep import worker, make_tokenizer
+
+from .data_prep import make_tokenizer, worker
+
 
 class TestDataPrep(unittest.TestCase):
     def test_tokenizer(self):
