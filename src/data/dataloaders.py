@@ -3,8 +3,6 @@ import numpy as np
 from torch.utils.data import DataLoader, Dataset
 from src.model.config import data_config
 
-
-
 class CustomDataset(Dataset):
     def __init__(self,path,block_size):
         super().__init__()
